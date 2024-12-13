@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <h3>What would you like to have!</h3>
+    <h4>Here is the list of food items</h4>
+    <form>
+        <fieldset>
+            <legend>List of food items</legend>
+            <select name="FOOD ITEMS" id="">
+                <optgroup label="Veg">
+                    <option value="panner">panner</option>
+                    <option value="potato">Potato</option>
+                    <option value="sweet corn">sweet corn</option>
+                </optgroup>
+                <optgroup label="Non-Veg">
+                    <option value="chicken">Chicken</option>
+                    <option value="mutton">Mutton</option>
+                    <option value="fish">Fish</option>
+                </optgroup>
+                <optgroup label="Vegan">
+                    <option value="Mushroom">Mushroom</option>
+                    <option value="Green peas">Green peas</option>
+                    <option value="chick peas">Chick peas</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Deserts we offer</legend>
+            <select name="" id="">
+                <option value="Apricot Delight">Apricot Delight</option>
+                <option value="Mango Delight">Mango Delight</option>
+                <option value="Gulab jamun">Gulab Jamun</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Moctails we offer</legend>
+            <select name="" id="">
+                <option value="moc">Green mojito</option>
+                <option value="lime">Lime soda</option>
+            </select>
+        </fieldset>
+        <br>
+        <label for="Ice creams">Ice creams we offer</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+       
+    </form>
+
+</body>
+</html>
